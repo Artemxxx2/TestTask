@@ -37,7 +37,6 @@ class ExcelService
                     $entries += 1;
                     continue;
                 }
-
                 $cells = $row->toArray();
 
                 $this->registryHelper($this->manufacturerRegistry,3,$cells,'App\\Models\\Manufacturer');
